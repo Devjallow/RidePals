@@ -1,0 +1,23 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<form id="login-box">
+    
+    <div id="form-container">
+        <h2>Login</h2>
+        <div class="form-group">
+            <label for="Username">Username</label>
+            <input type="text" placeholder="Enter username" name="Username" id="U-name" required>
+        </div>
+        <div class="form-group">
+            <label for="Password">Password</label>
+            <input type="password" placeholder="Enter Password" name="Password" id="U-password" required>
+        </div>
+        <div class="form-group">
+            <button>Submit</button>
+        </div>
+        <p id="term-con" >By Clicking the sign up button you agree to our <a href="#">Terms and Condition</a> and <a href="#">Policy Privacy</a></p>
+    </div>
+</form>
+{% endblock %}
+

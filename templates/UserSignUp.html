@@ -1,0 +1,41 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+<form id="signup-box">
+    <div id="form-container">
+        <h2>Sign up as User</h2>
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="email" placeholder="Enter username" name="name" id="U-name" required>
+        </div>
+        <div class="form-group">
+            <label for="lastname">Lastname</label>
+            <input type="text" placeholder="lastname" name="Password" id="l-name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="text" placeholder="example@example.com" name="email" id="email" required>
+        </div>
+        <div class="form-group">
+            <label for="Number">Phone Number</label>
+            <input type="number"  name="number" id="phone-number" required>
+        </div>
+        <div class="form-group">
+            <label for="password">Create password</label>
+            <input type="password"  name="Password" id="password" required>
+        </div>
+        <div class="form-group">
+            <label for="co-passpowrd">Confirm password</label>
+            <input type="password"  name="co-Password" id="password" required>
+        </div>
+        <div class="form-group">
+            <button>Submit</button>
+        </div>
+        
+    </div>
+   
+</form>
+
+<p>Already have an account? <a href="userlogin.html">Login in here</a></p>
+</form>
+{% endblock %}
